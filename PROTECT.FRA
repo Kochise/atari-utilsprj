@@ -1,0 +1,17 @@
+/// Protect - KOSS 1998 ///////////////////////////////////////////////////////
+
+Vous partez un moment, et vous ne voudriez pas qu'une personne vienne voir ce
+que contient votre ATARI. Placez ce programme en premiŠre position (utilisez
+AUTOSHORT au besoin).
+A chaque tentative de d‚marrage, un message apparaitra, vous indiquant une date
+de d‚bloquage (pour la changer, modifiez le source … l'endroit requit, et
+assemblez). De plus, une g‚n‚ration d'un fichier de 4 octets s'appelant
+PROTECT.DAT … lieu … la racine de l'unit‚e Boot. Ce fichier est un compteur sur
+un Long (faut utiliser un ‚diteur de disque pour voir le nombre de tentative de
+d‚marrage).
+Astuce, la date du fichier est la date de la derniŠre tentative ;)
+
+ATTENTION : Ne fonctionne qu'avec ceux qui ne savent pas qu'il faut appuyer sur
+            [Control] pour empecher le chargement des programmes au Boot.
+
+                                                   Kochise Of STALLION SOFTWARE

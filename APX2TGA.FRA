@@ -1,0 +1,36 @@
+/// "APX" APEX Block File 2 "TGA" Targa Standart File Converter - KOSS 1998 ///
+
+Grand utilisateur d'APEX, il m'arrive parfois de vouloir sauver juste un
+morceau d'image, ou alors de r‚duire l'image en-dessous de 320 pixels en
+horizontal. Cependant, ce programme bien que g‚nial comporte de nombreux
+d‚fauts, dont celui justement de ne pouvoir travailler avec des r‚solutions
+inf‚rieures … 320*200. Du coup, vous voulez faire une vignette pour votre
+page Web, et vous ne pouvez que pondre d'abominables fichiers de 320*200 au
+minimum, comportant ainsi beaucoup de noir. Il existe la solution de d‚couper
+la partie d‚sir‚e, et de la sauver en APX. Oui, mais vous voil… bien avec un
+format que seul APEX reconnait.
+Donc ce programme existe. Ca c'est bien, hein, mais ne converti que l'APX, et
+que en TGA Type 2 (TrueColor 24Bits UnCompressed).
+Autre couille dans l'histoire, APEX ne sauve ses Blocks qu'en 16Bits (NearTC).
+Mais consolez vous, de toute fa‡on APEX ne travail qu'en 16Bits (dumoins la
+version en ma possession, la premiŠre Release, la 2.01). Essayez donc
+d'‚claircir d'environ 30% une image un peu sombre, vos beau d‚grad‚s sont
+niqu‚s! Alors l'un pour l'autre...
+Remarquez qu'une fois le fichier TGA obtenu, vous pouvez imm‚diatement le
+convertir en JPG avec l'excellent (celui l…, bien que ne supportant pas les
+JPEGs r‚cents) CPX d'APEX, je nomme "JPEG Translator".
+Et pour continuer, si comme moi vous utilisez NeoN Grafix juste aprŠs pour
+exploiter la superbe texture que vous venez de faire sous APEX, et vous vous
+rendez compte que ce n'est pas une image TGA (essayez avec NEONTOOL, surprise
+assur‚e), vous pouvez aussi utiliser ce programme pour sauver l'image en entier
+au format APX, et la convertir ensuite en TGA de fa‡on correcte.
+L'astuce consiste juste … effacer le 4ø Word (OffSet 6) du Header du TGA
+g‚n‚r‚ par APEX, qui contient 18. NEONTOOL, pas trŠs sympa, n'accepte qu'un
+sch‚ma trŠs pr‚cis de Header, et au lieu de faire avec ce qu'il a, vous rejete
+imm‚diatement vos efforts...
+Utilisez CLEANTGA au besoin, il nettoie le Header des fichiers TGA.
+
+                                                   Kochise Of STALLION SOFTWARE
+
+
+

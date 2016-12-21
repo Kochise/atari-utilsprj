@@ -1,0 +1,18 @@
+/// Drag'n Drop Tester - KOSS 1998 ////////////////////////////////////////////
+
+Avant de vous lancer dans la programmation d'un STarter de programme pouvant
+r‚cuperer l'information pass‚es en ligne de commande, ou savoir ce qu'il se
+trouve dans la CommandLine … l'execution d'un programme aprŠs avoir d‚pos‚
+dessus un fichier, essayez donc ce programme.
+"File" donne le contenu de la CommandLine, tandis que "Path" donne l'unit‚e et
+le r‚pertoire par d‚faut au lancement du programme.
+Essayez de d‚poser une unit‚e de disque, vous obtiendrez invariablement "`." en
+"File", et le chemin du programme en "Path".
+Si vous d‚posez un r‚pertoire, il est impossible de faire la diff‚rence avec un
+fichier. Pour cela, faudra trifouiller dans la DTA, ou utiliser simplement un
+F_ATTRIB (GEMDOS 67-$43). Utile si l'on veut programmer un Slide-Show pour voir
+toutes les images d'un r‚pertoire. Cependant, il reste le problŠme si les
+images se trouvent … la racine de l'unit‚e disque. Impossible de d‚terminer
+laquelle...
+
+                                                   Kochise Of STALLION SOFTWARE
